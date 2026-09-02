@@ -180,8 +180,11 @@ Porque algunas historias comienzan por casualidad, pero las más bonitas se sigu
 
     <div   class="dresscode">
         <img  data-aos="fade-up"  class="icon"  src="./imgs/caracol2.png" alt="fiesta">
-        <h2  data-aos="fade-up"  >DRESS CODE - FORMAL</h2>
-        <p  data-aos="fade-up" >Recordá que el blanco está reservado para la novia.</p>
+        <h2  data-aos="fade-up"  >DRESS CODE - FORMAL PLAYERO / SUMMER CHIC </h2>
+        <p  data-aos="fade-up" >
+
+🤍 Blanco reservado para la novia. <br>
+🤎 Beige reservado para el novio.</p>
     </div>
 
 
@@ -193,7 +196,7 @@ Porque algunas historias comienzan por casualidad, pero las más bonitas se sigu
             <h2  data-aos="fade-up" >Recuerdos</h2>
             <p  data-aos="fade-up" >¡Queremos revivir cada momento! 📸✨
                 Compartí las fotos y videos de nuestra boda en el siguiente álbum.</p>
-            <a  data-aos="fade-up" target="_blank"  class="boton" href="https://drive.google.com/drive/folders/1lLj1ZRyjzzQR9nM0pU8o34FtmwKkMNoG">RECUERDOS</a>
+            <a  data-aos="fade-up" target="_blank"  class="boton" href="https://drive.google.com/drive/folders/1NgoBMr_NZFHT6ETgTugWHB1YE93Sz3US">RECUERDOS</a>
         </div>
         <!--
         <div class="ubicacion-bloque">
@@ -219,66 +222,54 @@ Porque algunas historias comienzan por casualidad, pero las más bonitas se sigu
             <img  data-aos="fade-up"  class="icon"  src="/imgs/FLOR.png" alt="giftcard">
             <h2  data-aos="fade-up" >Regalos</h2>
             <p  data-aos="fade-up" >
-               Tu presencia es para nosotros el mejor regalo, pero si deseás hacernos un regalo, ayudanos a cumplir nuestros sueños:
+               Tu presencia es para nosotros el mejor regalo, pero si deseás hacernos un ubsequio, ayudanos a cumplir nuestros sueños:
+               <br><br>
+               Liverpool – Mesa de regalos #52015365 <br>
               </p>
 
            <br>
-            <a  data-aos="fade-up"  class="boton" onclick="copyToClipboard('romancomelli')" >ALIAS ROMÁN</a> <br> <br><br>
-            <a  data-aos="fade-up"  class="boton" onclick="copyToClipboard('luciademagistris')">ALIAS LUCÍA</a> <br>
-          <br>
+            <a  data-aos="fade-up"  class="boton" onclick="copyToClipboard('722969010992040901')" >CLAVE MERCADO PAGO</a> <br> <br><br>
+            
+     
             <p  data-aos="fade-up" >Hace clic para copiar los datos de nuestra cuenta.
-               <br> Titulares: Comelli, Román y Demagistris, Lucía</p>
+               <br> Titular: Karime Assad Sanchez</p>
         </div>
     </div>
  <div class="forms">
       <img  data-aos="fade-up"  class="icon"  src="/imgs/rsvp.png" alt="giftcard">
 
-       <form name="asistenciaform" method="POST" action="" class="formulario">
+  <h2 data-aos="fade-up">Contanos un poco más sobre vos</h2>
+  <p data-aos="fade-up">Antes de la fiesta, queremos asegurarnos <br> de que no te falte nada. ¡Respondé estas preguntitas! 🎉</p>
 
-  <label data-aos="fade-up" class="formtitle">Venís?</label>
+  <form name="datosform" method="POST" action="https://script.google.com/macros/s/AKfycbzXdKracEMh6DURJZyRBUhHZvYAnHJk84EJDECLheo2ez4wGCENYeM1m4BrdVSuiisM/exec" class="formulario">
+    <input type="text" name="NOMBRE" placeholder="Nombre" required />
+    <input type="text" name="APELLIDO" placeholder="Apellido" required />
 
-  <div class="radio-group">
-    <label class="radio-option">
-      <input type="radio" name="ASISTENCIA" value="sí" required />
-      <span>Sí</span>
-    </label>
-    <label class="radio-option">
-      <input type="radio" name="ASISTENCIA" value="no" />
-      <span>No</span>
-    </label>
-  </div>
+    <select name="DIETA" required>
+      <option value="" disabled selected>¿Tenés alguna restricción alimentaria?</option>
+      <option value="Ninguna">Ninguna</option>
+      <option value="Vegetariano">Vegetariano</option>
+      <option value="Vegano">Vegano</option>
+      <option value="Celíaco">Celíaco</option>
+      <option value="Otra">Otra</option>
+    </select>
 
-  <input type="text" name="NOMBRE" placeholder="Nombre" required />
-  <input type="text" name="APELLIDO" placeholder="Apellido" required />
+    <select name="TRANSPORTE" required>
+      <option value="" disabled selected>¿Necesitás transporte?</option>
+      <option value="Sí">Sí</option>
+      <option value="No">No</option>
+      <option value="Aún no lo sé">Aún no lo sé</option>
+    </select>
 
-  <select name="DIETA" id="dieta" required>
-    <option value="" disabled selected>Dieta</option>
-    <option value="Nada">Nada</option>
-    <option value="Vegano">Vegano</option>
-    <option value="Vegetariano">Vegetariano</option>
-    <option value="Celíaco">Celíaco</option>
-    <option value="Otro">Alergia / restricción / aclaración</option>
-  </select>
+    <input type="text" name="CANCION" placeholder="¿Qué canción no puede faltar en la fiesta?" />
 
-  <input type="text" name="DIETA_OTRO" id="dieta-otro" placeholder="Contanos cuál" style="display:none;" />
-
-  <select name="TRANSPORTE" required>
-    <option value="" disabled selected>¿Necesitás transporte?</option>
-    <option value="Ida - Iglesia a Salón">Ida (Iglesia → Salón)</option>
-    <option value="Vuelta - Salón a Iglesia">Vuelta (Salón → Iglesia)</option>
-    <option value="Ida y vuelta">Ida y vuelta</option>
-    <option value="No necesito">No necesito</option>
-  </select>
-
-  <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea>
-  <textarea name="CANCION" placeholder="Recomendale una canción al DJ 🎶"></textarea>
-
-  <button type="submit" class="boton">ENVIAR</button>
-</form>
-
-    <p data-aos="fade-up">Recordá completar un formulario por persona. <br> Hacelo antes del 10 de Septiembre.</p>
+    <button type="submit" class="boton">ENVIAR</button>
+  </form>
+   <p data-aos="fade-up">Recordá contestar esta información <br> antes del 15 de Septiembre.</p>
   <img src="./imgs/iconoflor.png" alt="">
-  </div>
+</div>
+ 
+
     <div class="end">
         <div class="end-names">
           <img  data-aos="fade-in"  src="./imgs/endnames.png" alt="">

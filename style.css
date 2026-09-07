@@ -2,7 +2,8 @@
     --color-principal:#faf9f7;
     --color-secundario:#D0BCA1;
     --color-terciario:#D0BCA1;
-    --color-cuarto:#D0BCA1;
+    --color-cuarto:#0B1228;
+    --color-cinco:#0B1228;
 --font-principal:'MiTipografia', sans-serif;
     --font-secundaria:'Montserrat', sans-serif;
 }
@@ -349,7 +350,7 @@ audio::-webkit-media-controls-current-time-display {
     width: 80px;
 }
 .timeline h2 {
-    color: var(--color-cuarto);
+    color: var(--color-terciario);
     font-size: 2rem;
     padding: 0;
     margin: 10px 0;
@@ -381,7 +382,7 @@ audio::-webkit-media-controls-current-time-display {
 .iconos-block p {
     padding: 0;
     margin: 0;
-    color: var(--color-secundario);
+    color: var(--color-cuarto);
 }
 
 
